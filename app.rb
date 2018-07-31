@@ -35,7 +35,8 @@ end
       (number1*number2).to_s
       (number1/number2).to_s
     end 
-    
+end 
+
     
   
       
