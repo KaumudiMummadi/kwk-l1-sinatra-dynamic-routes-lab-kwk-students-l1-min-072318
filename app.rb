@@ -21,7 +21,7 @@ end
   final_string 
 end 
 
-
+end          
   get '/say/:word1/:word2/:word3/:word4/:word5'
     word1= params[:word1].to_s
     word2= params[:word2].to_s
