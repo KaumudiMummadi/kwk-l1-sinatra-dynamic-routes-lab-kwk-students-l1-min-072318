@@ -27,15 +27,7 @@ end
   end 
   
   
-  get '/:operation/:number1/:number2'
-    number1= params[:number].to_i
-    number2= params[:number].to_i 
-      (number1+number2).to_s
-      (number1-number2).to_s
-      (number1*number2).to_s
-      (number1/number2).to_s
-    end 
-end 
+ 
 
     
   
