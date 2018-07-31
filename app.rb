@@ -27,7 +27,8 @@ end
   end 
   
   
- 
+ get '/:operation/:number1/:number2'
+  
 
     
   
