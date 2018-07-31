@@ -1,5 +1,5 @@
 describe App do
-  describe 'GET /reversename/:name' do
+  describe GET '/reversename/:name' do
     it 'sends a 200 status code' do
       get '/reversename/victoria'
 
