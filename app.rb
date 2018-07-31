@@ -8,9 +8,10 @@ end
 
 
   get '/square/:number' do
-    number= params[:number].to_i
+    @number= params[:number].to_i
     (number*number).to_s
   end 
+  
   
   get '/say/:number/:phase' do
     number=params[:number]
