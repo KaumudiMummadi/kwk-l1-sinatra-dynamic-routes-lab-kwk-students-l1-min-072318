@@ -14,11 +14,12 @@ end
   
   
   get '/say/:number/:phase' do
-    number=params[:number]
-    phrase= params[:phrase]
-    @phrase= ""
+    final_string =""
+      (params[:number].to_i).times 
+      final_string += "#{params[:phrase]}"
   end 
-  
+  final_string 
+end 
   get '/say/:word1/:word2/:word3/:word4/:word5'
     word1= params[:word1].to_s
     word2= params[:word2].to_s
