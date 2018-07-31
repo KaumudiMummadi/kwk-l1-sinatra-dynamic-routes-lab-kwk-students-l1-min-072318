@@ -35,9 +35,14 @@ end
       (@number1 * @number2).to_s
     elsif @operation == "divide"
       (@number1/@number2).to_s
-    if @operation == "add"
-      ()
-end
+    elsif @operation == "add"
+      (@number1+@number2).to_s
+    elsif @operation == "subtract"
+      (@number1-@number2).to_s
+    else 
+      "Cannot do that operation"
+  end
+end 
 
     
   
